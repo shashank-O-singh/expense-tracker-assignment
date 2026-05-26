@@ -1,32 +1,20 @@
-Expense Tracker Application
+# Expense Tracker — Spec Driven Development Version
 
-A modern, responsive Expense Tracker web application built using vanilla HTML, CSS, and JavaScript.
+A modern and responsive Expense Tracker web application built using vanilla HTML, CSS, and JavaScript.
 
-The project demonstrates two development approaches:
+This branch demonstrates a **Spec Driven Development (SDD)** workflow using **OpenSpec** and structured AI-assisted development practices.
 
-* Vibe Coding
-* Spec Driven Development (SDD/OpenSpec)
+The project includes specifications, change proposals, design planning, and implementation workflows alongside the application source code.
 
-The application supports expense tracking, category analytics, budget monitoring, filtering, and browser local storage persistence.
+---
 
-⸻
+## Project Structure
 
-Project Structure
-
-Vibe Coding Branch
-
-Branch: vibe_coded_submission
-.
-├── README.md
-├── index.html
-├── styles.css
-└── app.js
-
-Spec Driven Development Branch
-
-Branch: sdd_submission
+```bash
 .
 ├── .amazonq/
+│   ├── prompts/
+│   └── skills/
 ├── openspec/
 │   ├── config.yaml
 │   ├── specs/
@@ -35,91 +23,121 @@ Branch: sdd_submission
 ├── index.html
 ├── styles.css
 └── app.js
+```
 
-Features
+---
 
-* Add and delete expenses
-* Expense category tracking
-* Monthly budget monitoring
-* Real-time analytics dashboard
-* Category-wise expense breakdown
-* Search and filter functionality
-* Responsive modern UI
-* Glassmorphism design system
-* Browser localStorage persistence
-* Toast notifications
-* Animated interactions
+## Features
 
-⸻
+- Add and delete expenses
+- Expense category tracking
+- Monthly budget monitoring
+- Real-time analytics dashboard
+- Category-wise expense breakdown
+- Search and filter functionality
+- Browser localStorage persistence
+- Toast notifications
+- Responsive UI design
+- Smooth animations and transitions
 
-Technologies Used
+---
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* OpenSpec (SDD branch)
+## Technologies Used
 
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- OpenSpec
+- AmazonQ / AI-assisted workflow
 
-Application Capabilities
+---
 
-Dashboard
+## OpenSpec Workflow
 
-* Total expense overview
-* Budget usage tracking
-* Remaining balance calculation
-* Dynamic progress indicators
+This branch follows a Spec Driven Development process.
 
-Expense Management
+Included artifacts:
 
-* Add transactions
-* Delete transactions
-* Form validation
-* Date-based sorting
-
-Analytics
-
-* Category breakdown
-* Percentage visualization
-* Real-time calculations
-
-Persistence
-
-* Browser localStorage support
-* Seed demo data initialization
-
-⸻
-
-UI Highlights
-
-* Glassmorphism design
-* Smooth animations
-* Mobile responsive layout
-* Interactive progress bars
-* Clean dashboard cards
-* Modern typography
-
-⸻
-
-OpenSpec Workflow (SDD Branch)
-
-The sdd_submission branch demonstrates a Spec Driven Development workflow using OpenSpec.
-
-It includes:
-
-* Project specifications
-* Change proposals
-* Design documents
-* Task planning
-* Structured implementation workflow
+- Project specifications
+- Change proposals
+- Design documents
+- Task planning
+- Structured implementation workflow
 
 The OpenSpec configuration is located in:
+
+```bash
 openspec/config.yaml
+```
 
-Future Improvements
+---
 
-* Export reports (CSV/PDF)
-* Authentication system
-* Cloud database integration
-* Expense editing support
-* Dark/Light mode toggle
-* Charts and graphs
+## Application Capabilities
+
+### Dashboard
+
+- Total expense overview
+- Monthly budget tracking
+- Remaining balance calculation
+- Dynamic progress indicators
+
+### Expense Management
+
+- Add new expenses
+- Delete expenses
+- Form validation
+- Date-based sorting
+
+### Analytics
+
+- Category-wise breakdown
+- Percentage visualization
+- Real-time calculations
+
+### Persistence
+
+- LocalStorage support
+- Seed demo data initialization
+
+---
+
+## UI Highlights
+
+- Glassmorphism design
+- Modern responsive layout
+- Interactive dashboard cards
+- Animated notifications
+- Mobile-friendly interface
+- Clean typography
+
+---
+
+## Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shashank-O-singh/expense-tracker-assignment.git
+```
+
+Switch to the branch:
+
+```bash
+git checkout sdd_submission
+```
+
+Open the project:
+
+```bash
+open index.html
+```
+
+or use VS Code Live Server.
+
+---
+
+## Repository
+
+```bash
+https://github.com/shashank-O-singh/expense-tracker-assignment
+```
