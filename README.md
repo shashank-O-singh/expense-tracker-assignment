@@ -12,17 +12,19 @@ The project includes specifications, change proposals, design planning, and impl
 
 ```bash
 .
-├── .amazonq/
-│   ├── prompts/
-│   └── skills/
-├── openspec/
-│   ├── config.yaml
-│   ├── specs/
-│   └── changes/
-├── README.md
-├── index.html
-├── styles.css
-└── app.js
+└── Desktop/
+    └── expense-tracker-assignment/
+        ├── .amazonq/
+        │   ├── prompts/
+        │   └── skills/
+        ├── openspec/
+        │   ├── config.yaml
+        │   ├── specs/
+        │   └── changes/
+        ├── README.md
+        ├── index.html
+        ├── styles.css
+        └── app.js
 ```
 
 ---
