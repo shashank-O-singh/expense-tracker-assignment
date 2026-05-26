@@ -1,8 +1,8 @@
-# Expense Tracker Assignment
+# QuantumSpend — Expense Tracker Application
 
-A modern, responsive Expense Tracker web application built using vanilla HTML, CSS, and JavaScript.
+QuantumSpend is a modern, responsive Expense Tracker web application built using vanilla HTML, CSS, and JavaScript.
 
-The project demonstrates two development approaches:
+The project demonstrates two different development approaches:
 
 - Vibe Coding
 - Spec Driven Development (SDD/OpenSpec)
@@ -11,41 +11,39 @@ The application supports expense tracking, category analytics, budget monitoring
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ### Vibe Coding Branch
 
-## Project Structure
+Branch: `vibe_coded_submission`
 
 ```bash
 .
-└── Desktop/
-    └── expense-tracker-assignment/
-        ├── README.md
-        ├── index.html
-        ├── styles.css
-        └── app.js
+├── README.md
+├── index.html
+├── styles.css
+└── app.js
 ```
+
+---
 
 ### Spec Driven Development Branch
 
-## Project Structure
+Branch: `sdd_submission`
 
 ```bash
 .
-└── Desktop/
-    └── expense-tracker-assignment/
-        ├── .amazonq/
-        │   ├── prompts/
-        │   └── skills/
-        ├── openspec/
-        │   ├── config.yaml
-        │   ├── specs/
-        │   └── changes/
-        ├── README.md
-        ├── index.html
-        ├── styles.css
-        └── app.js
+├── .amazonq/
+│   ├── prompts/
+│   └── skills/
+├── openspec/
+│   ├── config.yaml
+│   ├── specs/
+│   └── changes/
+├── README.md
+├── index.html
+├── styles.css
+└── app.js
 ```
 
 ---
@@ -58,11 +56,10 @@ The application supports expense tracking, category analytics, budget monitoring
 - Real-time analytics dashboard
 - Category-wise expense breakdown
 - Search and filter functionality
-- Responsive modern UI
-- Glassmorphism design system
 - Browser localStorage persistence
 - Toast notifications
-- Animated interactions
+- Responsive modern UI
+- Smooth animations and transitions
 
 ---
 
@@ -72,6 +69,7 @@ The application supports expense tracking, category analytics, budget monitoring
 - CSS3
 - JavaScript (ES6)
 - OpenSpec (SDD branch)
+- AmazonQ / AI-assisted workflow
 
 ---
 
@@ -80,7 +78,7 @@ The application supports expense tracking, category analytics, budget monitoring
 ### Dashboard
 
 - Total expense overview
-- Budget usage tracking
+- Monthly budget tracking
 - Remaining balance calculation
 - Dynamic progress indicators
 
@@ -93,7 +91,7 @@ The application supports expense tracking, category analytics, budget monitoring
 
 ### Analytics
 
-- Category breakdown
+- Category-wise breakdown
 - Percentage visualization
 - Real-time calculations
 
@@ -107,10 +105,10 @@ The application supports expense tracking, category analytics, budget monitoring
 ## UI Highlights
 
 - Glassmorphism design
-- Smooth animations
-- Mobile responsive layout
-- Interactive progress bars
-- Clean dashboard cards
+- Interactive dashboard cards
+- Responsive mobile-first layout
+- Animated notifications
+- Smooth transitions
 - Modern typography
 
 ---
@@ -119,7 +117,7 @@ The application supports expense tracking, category analytics, budget monitoring
 
 The `sdd_submission` branch demonstrates a Spec Driven Development workflow using OpenSpec.
 
-It includes:
+Included artifacts:
 
 - Project specifications
 - Change proposals
@@ -127,10 +125,56 @@ It includes:
 - Task planning
 - Structured implementation workflow
 
-The OpenSpec configuration is located in:
+OpenSpec configuration:
 
 ```bash
 openspec/config.yaml
+```
+
+---
+
+## Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shashank-O-singh/expense-tracker-assignment.git
+```
+
+Move into the project directory:
+
+```bash
+cd expense-tracker-assignment
+```
+
+Switch branches if needed:
+
+```bash
+git checkout sdd_submission
+```
+
+or
+
+```bash
+git checkout vibe_coded_submission
+```
+
+Open the application:
+
+```bash
+open index.html
+```
+
+or use VS Code Live Server.
+
+---
+
+## GitHub Pages Deployment
+
+Live Application:
+
+```bash
+https://shashank-o-singh.github.io/expense-tracker-assignment/
 ```
 
 ---
