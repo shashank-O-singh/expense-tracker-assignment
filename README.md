@@ -10,12 +10,13 @@ This branch represents the **Vibe Coding workflow**, where the application was r
 
 ```bash
 .
-├── README.md
-├── index.html
-├── styles.css
-└── app.js
+└── Desktop/
+    └── expense-tracker-assignment/
+        ├── README.md
+        ├── index.html
+        ├── styles.css
+        └── app.js
 ```
-
 ---
 
 ## Features
