@@ -746,10 +746,53 @@ select option {
 /* Footer Section */
 .app-footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     color: var(--text-muted);
     font-size: 0.75rem;
     font-weight: 300;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    color: var(--text-muted);
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition-fast);
+    font-weight: 500;
+}
+
+.github-link:hover {
+    color: var(--accent-purple);
+}
+
+.github-icon {
+    vertical-align: middle;
+}
+
+.footer-divider {
+    color: var(--text-muted);
+    opacity: 0.4;
+}
+
+.vibe-badge {
+    background: rgba(236, 72, 153, 0.1);
+    color: #ec4899;
+    border: 1px solid rgba(236, 72, 153, 0.25);
+    padding: 2px 8px;
+    border-radius: 99px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
 }
 
 /* ==========================================================================
