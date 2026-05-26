@@ -15,29 +15,37 @@ The application supports expense tracking, category analytics, budget monitoring
 
 ### Vibe Coding Branch
 
+## Project Structure
+
 ```bash
 .
-├── README.md
-├── index.html
-├── styles.css
-└── app.js
+└── Desktop/
+    └── expense-tracker-assignment/
+        ├── README.md
+        ├── index.html
+        ├── styles.css
+        └── app.js
 ```
 
 ### Spec Driven Development Branch
 
+## Project Structure
+
 ```bash
 .
-├── .amazonq/
-│   ├── prompts/
-│   └── skills/
-├── openspec/
-│   ├── config.yaml
-│   ├── specs/
-│   └── changes/
-├── README.md
-├── index.html
-├── styles.css
-└── app.js
+└── Desktop/
+    └── expense-tracker-assignment/
+        ├── .amazonq/
+        │   ├── prompts/
+        │   └── skills/
+        ├── openspec/
+        │   ├── config.yaml
+        │   ├── specs/
+        │   └── changes/
+        ├── README.md
+        ├── index.html
+        ├── styles.css
+        └── app.js
 ```
 
 ---
